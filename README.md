@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## Run the converter
 ```shell script
-python src/lobe_tf_to_tfjs.py path/to/exported/model --output_dir=path/to/desired/output
+python src/lobe_tf_to_tfjs.py model --output_dir=output
 ```
 The first argument to the converter is the path to your exported Lobe TensorFlow saved model.
 
